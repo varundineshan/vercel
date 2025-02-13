@@ -15,13 +15,11 @@ const Hero = () => {
               <span className="animate-up cursor-default bg-gradient-to-r from-sh-purple to-sh-purple font-bold tracking-widest">
                 Varun Dineshan
               </span>
-              , a web developer
+              , an AI Engineer
             </span>
-            from Bangladesh who focuses on frontend technologies & collaborates to open source
-            projects.
+            from Canada who is passionate about leveraging Machine Learning, Generative AI, and Data Science to drive business impact. With a strong foundation in mathematics and computer science
             <span className="mt-5 block">
-              I am passionate about building excellent software that improves the lives of those
-              around me.
+              I specialize in solving complex problems, building AI-powered solutions, and optimizing decision-making through data.
             </span>
           </h1>
         </div>

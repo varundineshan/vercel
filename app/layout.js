@@ -23,15 +23,15 @@ export async function generateMetadata() {
       'page-type': 'Portfolio',
       copyright: 'Varun Dineshan',
       audience: 'Everyone',
-      'itemProp:name': 'Varun Dineshan | Frontend Developer',
+      'itemProp:name': 'Varun Dineshan | AI Engineer',
       'itemProp:description':
-        'Varun Dineshan is a web designer & front-end web developer based in Dhaka, Bangladesh',
+        'Varun Dineshan is an AI Engineer & Data Analyst from Canada',
       'itemProp:image': `${BASE_URL}/opengraph-image.png`
     },
     metadataBase: new URL(BASE_URL),
 
     title: {
-      default: 'Varun Dineshan | Frontend Developer',
+      default: 'Varun Dineshan | AI Engineer',
       template: '%s | Varun Dineshan'
     },
     verification: {
@@ -44,18 +44,18 @@ export async function generateMetadata() {
     applicationName: 'Varun Dineshan',
 
     keywords: [
-      'shafin',
-      'shafin uap',
+      'Varun',
+      'varun dineshan',
       'Varun Dineshan',
-      'shafin website',
-      'shafin bd',
-      'shafin portfolio',
-      'frontend developer',
-      'web developer',
-      'React.js',
-      'Next.js',
-      'TailwindCSS',
-      'Bangladesh',
+      'varun website',
+      'dineshan ca',
+      'varun portfolio',
+      'AI Engineer',
+      'Artificial Intelligence',
+      'AI',
+      'RAG Systems',
+      'Augmented Generation',
+      'Canada',
       'open source contributor'
     ],
     authors: [{ name: 'Varun Dineshan', url: BASE_URL }],
