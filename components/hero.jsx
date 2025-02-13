@@ -17,7 +17,7 @@ const Hero = () => {
               </span>
               , an AI Engineer
             </span>
-            from Canada who is passionate about leveraging Machine Learning, Generative AI, and Data Science to drive business impact. With a strong foundation in mathematics and computer science
+            from Canada who is passionate about leveraging Machine Learning, Generative AI, and Data Science to drive business impact.
             <span className="mt-5 block">
               I specialize in solving complex problems, building AI-powered solutions, and optimizing decision-making through data.
             </span>
