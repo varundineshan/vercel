@@ -7,7 +7,7 @@ import SkillCap from '@/components/skill-cap';
 export const metadata = {
   title: 'About',
   description:
-    "Discover Varun Dineshan's journey in web development, from his foundational education in Computer Science to his professional experience as a software engineer. Skilled in technologies like JavaScript, React, Next.js, and more."
+    "Discover Varun Dineshan's journey as an AI Engineer, from his foundational education in Computer Science to his professional experience as a AI  engineer."
 };
 
 export default function About() {

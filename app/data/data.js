@@ -37,11 +37,11 @@ export const companies = [
 export const institutions = [
   {
     id: 1,
-    institution: 'University of Asia Pacific',
+    institution: 'MG University',
     logo: '/images/institutions/uap.png',
-    degree: 'Bachelor of Science, Computer Science & Engineering (CSE)',
-    startDate: '2018',
-    endDate: '2022'
+    degree: 'Bachelor of Computer Science & Engineering (CSE)',
+    startDate: '2013',
+    endDate: '2017'
   }
   // {
   // 	id: 2,
@@ -66,13 +66,13 @@ export const socialMedia = [
     id: 1,
     label: 'Github',
     icon: <FaGithub />,
-    url: 'https://github.com/shahriarshafin'
+    url: 'https://github.com/varundineshan'
   },
   {
     id: 2,
     label: 'Linkedin',
     icon: <FaLinkedin />,
-    url: 'https://www.linkedin.com/in/shahriarshafin/'
+    url: 'https://www.linkedin.com/in/varundineshan/'
   },
   {
     id: 3,
@@ -82,8 +82,8 @@ export const socialMedia = [
   },
   {
     id: 4,
-    label: 'Mail to Shafin',
+    label: 'Mail to Varun',
     icon: <FaRegEnvelope />,
-    url: 'mailto:connect.shafin@gmail.com'
+    url: 'mailto:connect.varun4dinesh@gmail.com'
   }
 ];
