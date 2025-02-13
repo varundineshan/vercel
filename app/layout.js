@@ -21,18 +21,18 @@ export async function generateMetadata() {
     pageType: 'Portfolio',
     other: {
       'page-type': 'Portfolio',
-      copyright: 'Shahriar Shafin',
+      copyright: 'Varun Dineshan',
       audience: 'Everyone',
-      'itemProp:name': 'Shahriar Shafin | Frontend Developer',
+      'itemProp:name': 'Varun Dineshan | Frontend Developer',
       'itemProp:description':
-        'Shahriar Shafin is a web designer & front-end web developer based in Dhaka, Bangladesh',
+        'Varun Dineshan is a web designer & front-end web developer based in Dhaka, Bangladesh',
       'itemProp:image': `${BASE_URL}/opengraph-image.png`
     },
     metadataBase: new URL(BASE_URL),
 
     title: {
-      default: 'Shahriar Shafin | Frontend Developer',
-      template: '%s | Shahriar Shafin'
+      default: 'Varun Dineshan | Frontend Developer',
+      template: '%s | Varun Dineshan'
     },
     verification: {
       google: 'process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION'
@@ -41,12 +41,12 @@ export async function generateMetadata() {
     description:
       'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
 
-    applicationName: 'Shahriar Shafin',
+    applicationName: 'Varun Dineshan',
 
     keywords: [
       'shafin',
       'shafin uap',
-      'shahriar shafin',
+      'Varun Dineshan',
       'shafin website',
       'shafin bd',
       'shafin portfolio',
@@ -58,17 +58,17 @@ export async function generateMetadata() {
       'Bangladesh',
       'open source contributor'
     ],
-    authors: [{ name: 'Shahriar Shafin', url: BASE_URL }],
-    creator: 'Shahriar Shafin',
-    publisher: 'Shahriar Shafin',
+    authors: [{ name: 'Varun Dineshan', url: BASE_URL }],
+    creator: 'Varun Dineshan',
+    publisher: 'Varun Dineshan',
 
     openGraph: {
-      title: 'Shahriar Shafin',
+      title: 'Varun Dineshan',
       description:
         'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
-      authors: ['Shahriar Shafin'],
+      authors: ['Varun Dineshan'],
       url: BASE_URL,
-      siteName: 'Shahriar Shafin',
+      siteName: 'Varun Dineshan',
       locale: 'en_US',
       type: 'website',
       images: [
@@ -76,14 +76,14 @@ export async function generateMetadata() {
           url: `${BASE_URL}/opengraph-image.png`,
           width: 1200,
           height: 630,
-          alt: 'Shahriar Shafin | Frontend Developer',
+          alt: 'Varun Dineshan | Frontend Developer',
           type: 'image/png'
         }
       ]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Shahriar Shafin',
+      title: 'Varun Dineshan',
       description:
         'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
       images: [`${BASE_URL}/opengraph-image.png`],

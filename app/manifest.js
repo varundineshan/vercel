@@ -2,9 +2,9 @@ import { BASE_URL } from '@/lib/constants';
 
 export default function manifest() {
   return {
-    name: 'Shahriar Shafin',
+    name: 'Varun Dineshan',
     short_name: 'Shafin',
-    description: 'Shahriar Shafin protfolio website',
+    description: 'Varun Dineshan protfolio website',
     theme_color: '#1A85FF',
     background_color: '#171923',
     manifest_version: 2,

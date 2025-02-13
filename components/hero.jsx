@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="block">
               I am{' '}
               <span className="animate-up cursor-default bg-gradient-to-r from-sh-purple to-sh-purple font-bold tracking-widest">
-                Shahriar Shafin
+                Varun Dineshan
               </span>
               , a web developer
             </span>

@@ -7,7 +7,7 @@ import { Suspense } from 'react';
 export const metadata = {
   title: 'Open Source',
   description:
-    'Explore Shahriar Shafin’s open source repositories, including projects he has published and contributed to on GitHub.'
+    'Explore Varun Dineshan’s open source repositories, including projects he has published and contributed to on GitHub.'
 };
 
 export default async function openSource() {

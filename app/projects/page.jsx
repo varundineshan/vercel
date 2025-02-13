@@ -6,7 +6,7 @@ import ProjectCard from '@/components/project-card';
 export const metadata = {
   title: 'Projects',
   description:
-    "A showcase of Shahriar Shafin's development work, demonstrating expertise in creating dynamic, user-focused web applications using modern frontend technologies."
+    "A showcase of Varun Dineshan's development work, demonstrating expertise in creating dynamic, user-focused web applications using modern frontend technologies."
 };
 
 export default function Projects() {
