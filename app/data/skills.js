@@ -1,28 +1,28 @@
 export const skills = [
   {
     id: 5,
-    name: 'Figma',
+    name: 'Python',
     logo: '/images/skills/python.png'
   },
   {
     id: 1,
-    name: 'HTML',
+    name: 'Azure',
     logo: '/images/skills/azure.png'
   },
   {
     id: 2,
-    name: 'CSS',
+    name: 'Artificial Intelligence',
     logo: '/images/skills/css.png'
   },
   {
     id: 3,
-    name: 'Bootstrap',
-    logo: '/images/skills/bootstrap.png'
+    name: 'Deep Learning',
+    logo: '/images/skills/pytorch.png'
   },
   {
     id: 4,
-    name: 'TailwindCSS',
-    logo: '/images/skills/tailwindcss.png'
+    name: 'SQL',
+    logo: '/images/skills/sql.png'
   },
   // {
   // 	id: 6,
