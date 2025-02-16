@@ -18,19 +18,19 @@ export const companies = [
   },
   {
     id: 2,
-    institution: 'Taskeasy Technologies',
-    logo: '/images/companies/taskeasy.png',
-    degree: 'Junior Software Engineer',
-    startDate: 'Apr 2023',
-    endDate: 'Sep 2024'
+    institution: 'Infosys Limited',
+    logo: '/images/companies/Infosys_logo.svg.png',
+    degree: 'Data Analyst',
+    startDate: 'Dec 2017',
+    endDate: 'Jul 2019'
   },
   {
     id: 3,
-    institution: 'Pridesys IT Limited',
+    institution: 'Apps Root Technologies',
     logo: '/images/companies/pridesys.png',
-    degree: 'Software Engineer - Intern',
-    startDate: 'Aug 2022',
-    endDate: 'Nov 2022'
+    degree: 'Data Analyst',
+    startDate: 'Jul 2016',
+    endDate: 'Dec 2017'
   }
 ];
 

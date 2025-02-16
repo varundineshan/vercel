@@ -37,7 +37,7 @@ const Avatar = () => {
       >
         <div className="wrap-avater">
           <Image
-            src="/images/icons/varlock_d.png"
+            src="/images/icons/varlock_e.png"
             alt="avatar"
             draggable="false"
             className="-mt-[55px] duration-500 group-hover:drop-shadow-[-1px_-1px_0px_#ec4899]"
