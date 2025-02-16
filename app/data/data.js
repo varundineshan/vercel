@@ -1,10 +1,10 @@
 import { FaDribbble, FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa';
 
 export const featuredRepositories = [
-  'myportfolio',
-  'shahriarshafin',
-  'nodemcu-esp8266-fake-sign-in',
-  'face-hand-tracker'
+  'Databricks-RAG-System',
+  'SimpleRAG ',
+  'OntarioVaccine2021 ',
+  'customer-complaint-classification'
 ];
 
 export const companies = [
