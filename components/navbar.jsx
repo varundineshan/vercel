@@ -74,7 +74,7 @@ const NavBar = () => {
             <Link
               target="_blank"
               aria-label="github link"
-              href="https://github.com/shahriarshafin"
+              href="https://github.com/varundineshan"
               className="cursor-pointer rounded-xl p-3 transition ease-in hover:bg-sh-dark"
             >
               <FaGithub />
