@@ -2,12 +2,12 @@ export const skills = [
   {
     id: 5,
     name: 'Figma',
-    logo: '/images/skills/figma.png'
+    logo: '/images/skills/python.png'
   },
   {
     id: 1,
     name: 'HTML',
-    logo: '/images/skills/html.png'
+    logo: '/images/skills/azure.png'
   },
   {
     id: 2,
