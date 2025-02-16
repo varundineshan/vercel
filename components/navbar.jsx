@@ -47,8 +47,8 @@ const NavBar = () => {
             >
               <Image
                 className="rounded-full"
-                src="/images/icons/icon-72x72.png"
-                alt="Shafin's avatar"
+                src="/images/icons/varlock(72).png"
+                alt="Varun's avatar"
                 draggable="false"
                 width={565}
                 height={565}

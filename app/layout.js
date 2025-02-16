@@ -39,7 +39,7 @@ export async function generateMetadata() {
     },
 
     description:
-      'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
+      'Varun Dineshan is an AI Engineer & Data Analyst from Canada',
 
     applicationName: 'Varun Dineshan',
 
@@ -65,7 +65,7 @@ export async function generateMetadata() {
     openGraph: {
       title: 'Varun Dineshan',
       description:
-        'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
+        'AI Engineer ',
       authors: ['Varun Dineshan'],
       url: BASE_URL,
       siteName: 'Varun Dineshan',
@@ -76,7 +76,7 @@ export async function generateMetadata() {
           url: `${BASE_URL}/opengraph-image.png`,
           width: 1200,
           height: 630,
-          alt: 'Varun Dineshan | Frontend Developer',
+          alt: 'Varun Dineshan | AI Engineer',
           type: 'image/png'
         }
       ]
@@ -85,7 +85,7 @@ export async function generateMetadata() {
       card: 'summary_large_image',
       title: 'Varun Dineshan',
       description:
-        'Frontend developer specializing in React.js & Next.js. Building excellent software that improves lives through open source contributions and innovative web solutions',
+        'Varun Dineshan is an AI Engineer & Data Analyst from Canada',
       images: [`${BASE_URL}/opengraph-image.png`],
       creator: '@connectshafin',
       site: '@connectshafin',
