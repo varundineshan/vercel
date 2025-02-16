@@ -10,10 +10,10 @@ export const featuredRepositories = [
 export const companies = [
   {
     id: 1,
-    institution: 'Wander Woman',
-    logo: '/images/companies/wander-woman.png',
-    degree: 'Software Engineer',
-    startDate: 'Sep 2024',
+    institution: 'Tata Consultancy Services',
+    logo: '/images/companies/tcs.png',
+    degree: 'Business Analyst for CIBC',
+    startDate: 'Feb 2022',
     endDate: 'Present'
   },
   {
