@@ -3,7 +3,7 @@ import { BASE_URL } from '@/lib/constants';
 export default function manifest() {
   return {
     name: 'Varun Dineshan',
-    short_name: 'Shafin',
+    short_name: 'varun',
     description: 'Varun Dineshan protfolio website',
     theme_color: '#1A85FF',
     background_color: '#171923',
@@ -13,7 +13,7 @@ export default function manifest() {
     scope: '/',
     start_url: '/',
     id: '/',
-    categories: ['Portfolio', 'Shafin'],
+    categories: ['Portfolio', 'varun'],
     version: '3.1.0',
     orientation: 'portrait',
     lang: 'en-US',
@@ -22,9 +22,9 @@ export default function manifest() {
     prefer_related_applications: true,
     protocol_handlers: [
       {
-        protocol: 'web+Shafin',
-        name: 'Open with Shafin',
-        description: 'Handles links with the shafin protocol',
+        protocol: 'web+varun',
+        name: 'Open with varun',
+        description: 'Handles links with the varun protocol',
         url: '/?url=%s'
       }
     ],

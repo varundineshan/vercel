@@ -24,11 +24,11 @@ export const skills = [
     name: 'SQL',
     logo: '/images/skills/sql.png'
   },
-  // {
-  // 	id: 6,
-  // 	name: 'Git',
-  // 	logo: '/images/skills/git.png',
-  // },
+   {
+   	id: 6,
+   	name: 'Docker',
+   	logo: '/images/skills/docker.png',
+   },
   // {
   // 	id: 7,
   // 	name: 'GitHub',
@@ -44,24 +44,24 @@ export const skills = [
   // 	name: 'Python',
   // 	logo: '/images/skills/python.png',
   // },
-  {
-    id: 10,
-    name: 'JavaScript',
-    logo: '/images/skills/javascript.png'
-  },
-  {
-    id: 11,
-    name: 'React.js',
-    logo: '/images/skills/react.png'
-  },
-  {
-    id: 12,
-    name: 'Next.js',
-    logo: '/images/skills/nextjs.png'
-  },
-  {
-    id: 13,
-    name: 'Prisma',
-    logo: '/images/skills/prisma.png'
-  }
+//  {
+//    id: 10,
+//    name: 'JavaScript',
+//    logo: '/images/skills/javascript.png'
+//  },
+//  {
+//    id: 11,
+//    name: 'React.js',
+//    logo: '/images/skills/react.png'
+//  },
+//  {
+//    id: 12,
+//    name: 'Next.js',
+//    logo: '/images/skills/nextjs.png'
+//  },
+//  {
+//    id: 13,
+//    name: 'Prisma',
+//    logo: '/images/skills/prisma.png'
+//  }
 ];
