@@ -41,8 +41,8 @@ const Avatar = () => {
             alt="avatar"
             draggable="false"
             className="-mt-[55px] duration-500 group-hover:drop-shadow-[-1px_-1px_0px_#ec4899]"
-            width={600}
-            height={426}
+            width={300}
+            height={226}
             priority
           />
         </div>
