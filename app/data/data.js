@@ -38,7 +38,7 @@ export const institutions = [
   {
     id: 1,
     institution: 'MG University',
-    logo: '/images/institutions/uap.png',
+    logo: '/images/institutions/mg_logo.png',
     degree: 'Bachelor of Computer Science & Engineering (CSE)',
     startDate: '2013',
     endDate: '2017'
