@@ -1,10 +1,10 @@
 import { FaDribbble, FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa';
 
 export const featuredRepositories = [
+  'NaturalLanguage2SQL',
   'Databricks-RAG-System',
   'SimpleRAG ',
-  'OntarioVaccine2021 ',
-  'customer-complaint-classification'
+  'OntarioVaccine2021 '
 ];
 
 export const companies = [
