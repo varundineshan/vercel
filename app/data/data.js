@@ -19,7 +19,7 @@ export const companies = [
   {
     id: 2,
     institution: 'Infosys Limited',
-    logo: '/images/companies/Infosys_logo.svg.png',
+    logo: '/images/companies/Infosys_logo.png',
     degree: 'Data Analyst',
     startDate: 'Dec 2017',
     endDate: 'Jul 2019'
@@ -27,7 +27,7 @@ export const companies = [
   {
     id: 3,
     institution: 'Apps Root Technologies',
-    logo: '/images/companies/pridesys.png',
+    logo: '/images/companies/apps_root.png',
     degree: 'Data Analyst',
     startDate: 'Jul 2016',
     endDate: 'Dec 2017'
