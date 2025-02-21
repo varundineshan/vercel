@@ -11,18 +11,18 @@ export const greetingList = [
   },
   {
     key: 3,
-    text: 'হ্যালো',
-    lang: 'Bangla'
+    text: 'ഹലോ',
+    lang: 'Malayalam'
   },
   {
     key: 4,
-    text: 'नमस्ते',
-    lang: 'Hindi'
+    text: 'வணக்கம்',
+    lang: 'Tamil'
   },
   {
     key: 5,
-    text: 'السلام عليكم',
-    lang: 'Arabic'
+    text: 'नमस्ते',
+    lang: 'Hindi'
   },
   {
     key: 6,
@@ -38,35 +38,5 @@ export const greetingList = [
     key: 8,
     text: 'Bonjour',
     lang: 'French'
-  },
-  {
-    key: 9,
-    text: 'Ciao',
-    lang: 'Italian'
-  },
-  {
-    key: 10,
-    text: '안녕하세요',
-    lang: 'Korean'
-  },
-  {
-    key: 11,
-    text: 'Olá',
-    lang: 'Portuguese'
-  },
-  {
-    key: 12,
-    text: 'Guten Tag',
-    lang: 'German'
-  },
-  {
-    key: 13,
-    text: 'Merhaba',
-    lang: 'Turkish'
-  },
-  {
-    key: 14,
-    text: 'Привет',
-    lang: 'Russian'
   }
 ];
