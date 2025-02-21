@@ -74,14 +74,14 @@ export const socialMedia = [
     icon: <FaLinkedin />,
     url: 'https://www.linkedin.com/in/varundineshan/'
   },
+//  {
+//    id: 3,
+//    label: 'Dribbble',
+//    icon: <FaDribbble />,
+//    url: 'https://dribbble.com/'
+//  },
   {
     id: 3,
-    label: 'Dribbble',
-    icon: <FaDribbble />,
-    url: 'https://dribbble.com/shahriarshafin'
-  },
-  {
-    id: 4,
     label: 'Mail to Varun',
     icon: <FaRegEnvelope />,
     url: 'mailto:connect.varun4dinesh@gmail.com'
