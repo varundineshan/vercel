@@ -40,7 +40,7 @@ const Avatar = () => {
             src="/images/icons/varlock_g.png"
             alt="avatar"
             draggable="false"
-            className="duration-500 group-hover:drop-shadow-[-1px_-1px_0px_#ec4899]"
+            className="-mt-[20px] duration-500 group-hover:drop-shadow-[-1px_-1px_0px_#ec4899]"
             width={600}
             height={826}
             priority
