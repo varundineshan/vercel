@@ -19,7 +19,7 @@ export const companies = [
   {
     id: 2,
     institution: 'Infosys Limited',
-    logo: '/images/companies/Infosys_logo.png',
+    logo: '/images/companies/infosys_logo.png',
     degree: 'Data Analyst',
     startDate: 'Dec 2017',
     endDate: 'Jul 2019'
