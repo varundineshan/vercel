@@ -1,11 +1,11 @@
 export const projectList = [
   {
     id: 1,
-    title: 'Taskeasy',
-    des: 'Taskeasy is a workflow Automation Tool for large and small teams that can connect apps and automate workflows, just like Zapier. It offers a simple setup and allows users to automate processes without a developer.',
-    tech: ['NextJS', 'Automation', 'ReactFlow'],
+    title: 'NL2SQL',
+    des: 'This project is a web-based chat application that transforms natural language questions into SQL queries to retrieve answers from cloud-hosted databases (Amazon RDS / Azure MySQL). It intelligently matches user queries to pre-existing examples via a dynamic few-shot approach and uses GPT-4 to generate SQL when needed. With built-in chat history, the system maintains context for follow-up questions, providing an interactive, conversational experience for data retrieval.',
+    tech: ['Streamlit', 'LangChain', ' Chroma DB','Amazon RDS','LLM'],
     url: '',
-    image: '/images/projects/taskeasy.png'
+    image: '/images/projects/NL2SQL.png'
   },
   {
     id: 2,
