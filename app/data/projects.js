@@ -2,7 +2,7 @@ export const projectList = [
   {
     id: 1,
     title: 'NL2SQL',
-    des: 'This project is a web-based chat application that transforms natural language questions into SQL queries to retrieve answers from cloud-hosted databases (Amazon RDS / Azure MySQL). It intelligently matches user queries to pre-existing examples via a dynamic few-shot approach and uses GPT-4 to generate SQL when needed. With built-in chat history, the system maintains context for follow-up questions, providing an interactive, conversational experience for data retrieval.',
+    des: 'QueryMaster converts natural language questions into SQL, querying cloud databases like Amazon RDS. It matches questions via Chroma DB or generates queries with GPT-4 using LangChain and LangSmith. With history management, it delivers contextual answers.',
     tech: ['Streamlit', 'LangChain', ' Chroma DB','Amazon RDS','LLM'],
     url: '',
     image: '/images/projects/NL2SQL.png'
