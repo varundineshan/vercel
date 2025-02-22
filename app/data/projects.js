@@ -13,7 +13,7 @@ export const projectList = [
     des: "A document Q&A system using FastAPI, Streamlit, and LangChain. Upload multiple documents (PDF, DOCX, TXT) and ask questions using GPT models. Features include source attribution, session management, intelligent memory handling, and detailed logging. Built with ChromaDB for efficient document processing.",
     tech: ['LLM', 'LangChain', 'Embedding'],
     url: '',
-    image: '/images/projects/RAG_System.png'
+    image: '/images/projects/rag_system_2.png'
   },
   {
     id: 3,
