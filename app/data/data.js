@@ -3,7 +3,7 @@ import { FaDribbble, FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa'
 export const featuredRepositories = [
   'NaturalLanguage2SQL',
   'Databricks-RAG-System',
-  'SimpleRAG ',
+  'RAG-AI-Document-Chat',
   'OntarioVaccine2021 '
 ];
 
