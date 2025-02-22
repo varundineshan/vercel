@@ -9,11 +9,11 @@ export const projectList = [
   },
   {
     id: 2,
-    title: 'Rutugo',
-    des: "A travel planning app with personalized tour plans based on users' budgets, preferred themes, group sizes, journey dates etc. Powered by OpenAI API, Rutugo creates unforgettable vacations tailored specifically for each traveler.",
-    tech: ['OpenAI', 'NextJS', 'Tailwind'],
+    title: 'RAG System',
+    des: "A document Q&A system using FastAPI, Streamlit, and LangChain. Upload multiple documents (PDF, DOCX, TXT) and ask questions using GPT models. Features include source attribution, session management, intelligent memory handling, and detailed logging. Built with ChromaDB for efficient document processing.",
+    tech: ['LLM', 'LangChain', 'Embedding'],
     url: '',
-    image: '/images/projects/rutugo.png'
+    image: '/images/projects/RAG_System.png'
   },
   {
     id: 3,
