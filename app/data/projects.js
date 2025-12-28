@@ -17,11 +17,11 @@ export const projectList = [
   },
   {
     id: 3,
-    title: 'ShopBD',
-    des: 'A high-performance, server-rendered Next.js App Router ecommerce application. It uses React Server Components, Server Actions, Suspense, useOptimistic, and more.',
-    tech: ['React', 'NextJS', 'Tailwind'],
+    title: 'Vector-Based RAG API',
+    des: 'User questions are embedded, matched against a vector index in Azure AI Search, and answered by GPT-4o using only retrieved document context',
+    tech: ['Azure AI Search', 'Azure OpenAI', 'RAG'], 
     url: '',
-    image: '/images/projects/shopbd.png'
+    image: '/images/projects/proj3.svg'
   },
   {
     id: 4,
