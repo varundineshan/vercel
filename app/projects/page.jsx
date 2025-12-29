@@ -6,14 +6,14 @@ import ProjectCard from '@/components/project-card';
 export const metadata = {
   title: 'Projects',
   description:
-    "A showcase of Varun Dineshan's development work, demonstrating expertise in creating dynamic, user-focused web applications using modern frontend technologies."
+    "A showcase of Varun Dineshan’s Generative AI projects, demonstrating expertise in building intelligent, scalable AI systems using modern cloud platforms and LLM-powered architectures."
 };
 
 export default function Projects() {
   return (
     <section>
-      <Heading text={'Featured Projects'} />
-      <Description text="Discover a collection of projects highlighting my journey as a web developer" />
+      <Heading text={'Featured AI Projects'} />
+      <Description text="Discover a collection of projects highlighting my journey as a Generative AI developer" />
 
       <div className="space-y-10">
         {projectList.map((project, idx) => (

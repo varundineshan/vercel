@@ -1,19 +1,19 @@
 export const projectList = [
   {
     id: 1,
-    title: 'NL2SQL',
-    des: 'QueryMaster converts natural language questions into SQL, querying cloud databases like Amazon RDS. It matches questions via Chroma DB or generates queries with GPT-4 using LangChain and LangSmith. With history management, it delivers contextual answers.',
-    tech: ['Streamlit',' Chroma DB','Amazon RDS','LLM'],
+    title: 'Multi-Stage Architecture Diagram Generator',
+    des: '7-stage AI pipeline that converts project scope into validated, enterprise-grade architecture diagrams using GPT-4o analysis and Gemini image generation',
+    tech: ['GPT-4o', 'Nano Banana Pro', 'Multi-Stage Validation'],
     url: '',
-    image: '/images/projects/NL2SQL.png'
+    image: '/images/projects/ASD_generator.png'
   },
   {
     id: 2,
-    title: 'RAG System',
-    des: "A document Q&A system using FastAPI, Streamlit, and LangChain. Upload multiple documents (PDF, DOCX, TXT) and ask questions using GPT models. Features include source attribution, session management, intelligent memory handling, and detailed logging. Built with ChromaDB for efficient document processing.",
-    tech: ['LLM', 'LangChain', 'Embedding'],
+    title: 'Hybrid Semantic RAG API',
+    des: "A production-ready Retrieval-Augmented Generation (RAG) service using Azure Functions, Azure AI Search hybrid retrieval, and Azure OpenAI.",
+    tech: ['Azure AI Search', 'Hybrid Retrieval', 'Azure OpenAI'],
     url: '',
-    image: '/images/projects/rag_upscaled.png'
+    image: '/images/projects/proj5.png'
   },
   {
     id: 3,
@@ -25,27 +25,27 @@ export const projectList = [
   },
   {
     id: 4,
-    title: 'Face-Hand Tracker',
-    des: 'MediaPipe in a Next.js app enables real-time face and hand detection directly in the browser, ensuring low latency, privacy, and cost efficiency. It leverages FaceMesh and Hand Tracking for fast, responsive tracking on web and mobile.',
-    tech: ['Mediapipe', 'NextJS', 'OnDeviceAI'],
+    title: 'Azure API Management Gateway',
+    des: 'A production-ready API gateway built using Azure API Management to securely expose backend services, including AI-powered APIs.',
+    tech: ['Azure API Management', 'API Gateway', 'Azure'],
     url: 'https://face-hand-tracker.vercel.app/',
-    image: '/images/projects/face-hand-tracker.png'
+    image: '/images/projects/proj7.png'
   },
   {
     id: 5,
-    title: 'Rtx Server',
-    des: 'RTX SERVER is constructed using custom GPU clusters tailored for real-time applications, with a focus on Unreal Engine projects. This serves as the portfolio page showcasing their specialized services.',
-    tech: ['React', 'Tailwind', 'DaisyUI'],
+     title: 'NL2SQL',
+    des: 'QueryMaster converts natural language questions into SQL, querying cloud databases like Amazon RDS. It matches questions via Chroma DB or generates queries with GPT-4 using LangChain and LangSmith. With history management, it delivers contextual answers.',
+    tech: ['Streamlit',' Chroma DB','Amazon RDS','LLM'],
     url: '',
-    image: '/images/projects/rtx-server.png'
+    image: '/images/projects/NL2SQL.png'
   },
   {
     id: 6,
-    title: 'UAP CSE',
-    des: 'As CSE students at the University of Asia Pacific, taking on the responsibility to redesign and rebuild our Departmental Website was an incredible opportunity. This project marked the beginning of my journey into web development.',
-    tech: ['Django', 'Bootstrap', 'JavaScript'],
-    url: 'https://cse.uap-bd.edu/',
-    image: '/images/projects/uap-cse.png'
+    title: 'RAG System',
+    des: "A document Q&A system using FastAPI, Streamlit, and LangChain. Upload multiple documents (PDF, DOCX, TXT) and ask questions using GPT models. Features include source attribution, session management, intelligent memory handling, and detailed logging. Built with ChromaDB for efficient document processing.",
+    tech: ['LLM', 'LangChain', 'Embedding'],
+    url: '',
+    image: '/images/projects/rag_upscaled.png'
   }
 
   // {
