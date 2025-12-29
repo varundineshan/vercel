@@ -12,7 +12,7 @@ export const projectList = [
     title: 'Hybrid Semantic RAG API',
     des: "A production-ready Retrieval-Augmented Generation (RAG) service using Azure Functions, Azure AI Search hybrid retrieval, and Azure OpenAI.",
     tech: ['Azure AI Search', 'Hybrid Retrieval', 'Azure OpenAI'],
-    url: '',
+    url: '/projects/2',
     image: '/images/projects/proj5.png'
   },
   {

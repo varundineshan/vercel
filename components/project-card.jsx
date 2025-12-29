@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const ProjectCard = ({ leftAlign, image, title, des, tech, url }) => {
+  const isExternal = url.startsWith('http');
+  
   return (
     <article
       className={'flex justify-center ' + (leftAlign ? 'lg:justify-end' : 'lg:justify-start')}
@@ -21,7 +23,7 @@ const ProjectCard = ({ leftAlign, image, title, des, tech, url }) => {
                 (leftAlign ? 'md:text-left' : 'md:text-right')
               }
             >
-              <Link href={url} target="_self">
+              <Link href={url || '#'} target={isExternal ? '_blank' : '_self'}>
                 {title}
               </Link>
             </h2>
@@ -47,7 +49,7 @@ const ProjectCard = ({ leftAlign, image, title, des, tech, url }) => {
           </div>
         </header>
 
-        <Link href={url} target="_self">
+        <Link href={url || '#'} target={isExternal ? '_blank' : '_self'}>
           <div className="relative flex w-full scale-[.99] rounded-lg border-2 border-sh-blue bg-sh-blue opacity-25 shadow-lg transition ease-in hover:scale-100 hover:opacity-100 md:w-[35rem] md:opacity-50">
             <Image
               className="h-full w-full rounded-lg"
