@@ -42,15 +42,15 @@ export const institutions = [
     degree: 'Bachelor of Computer Science & Engineering (CSE)',
     startDate: '2013',
     endDate: '2017'
+  },
+  {
+  	id: 2,
+  	institution: 'Centennial College',
+  	logo: '/images/institutions/busms.png',
+  	degree: 'Higher Secondary Certificate, Science',
+  	startDate: '2016',
+  	endDate: '2018',
   }
-  // {
-  // 	id: 2,
-  // 	institution: 'Cantonment Public School & College, BUSMS',
-  // 	logo: '/images/institutions/busms.png',
-  // 	degree: 'Higher Secondary Certificate, Science',
-  // 	startDate: '2016',
-  // 	endDate: '2018',
-  // },
   // {
   // 	id: 3,
   // 	institution: 'Cantonment Public School & College, Saidpur',

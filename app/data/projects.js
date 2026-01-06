@@ -5,7 +5,7 @@ export const projectList = [
     des: 'Enterprise-ready RAG platform with authenticated access, vector search, source-grounded answers, audit logs, and admin analytics for operational knowledge bases',
     tech: ['RAG', 'FastAPI', 'Next.js', 'pgvector', 'OpenAI', 'Clerk', 'Azure'],
     url: '/projects/1',
-    image: '/images/projects/franchiseops-rag.png'
+    image: '/images/projects/franchiseops-rag.gif'
   },
   {
     id: 2,

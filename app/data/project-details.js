@@ -2,7 +2,7 @@ export const projectDetails = {
   1: {
     fullTitle: 'FranchiseOps AI – Enterprise RAG Platform',
     subtitle: 'Secure, Authenticated RAG System with Analytics, Audit Logs, and Multi-Tenant Support',
-    diagram: '/images/projects/franchiseops-rag.png',
+    diagram: '/images/projects/franchiseops-rag.gif',
     whatIBuilt: {
       description: 'A fully deployed, production-grade Retrieval-Augmented Generation (RAG) platform that allows authenticated users to query enterprise franchise manuals and receive accurate, citation-backed answers. The system includes role-based access control, admin ingestion workflows, audit logging, and real-time analytics.',
       context: 'This project represents a complete end-to-end RAG system, covering ingestion, retrieval, generation, security, and observability—designed for real enterprise and franchise environments.'
