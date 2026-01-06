@@ -1,5 +1,149 @@
 export const projectDetails = {
   1: {
+    fullTitle: 'FranchiseOps AI – Enterprise RAG Platform',
+    subtitle: 'Secure, Authenticated RAG System with Analytics, Audit Logs, and Multi-Tenant Support',
+    diagram: '/images/projects/franchiseops-rag.png',
+    whatIBuilt: {
+      description: 'A fully deployed, production-grade Retrieval-Augmented Generation (RAG) platform that allows authenticated users to query enterprise franchise manuals and receive accurate, citation-backed answers. The system includes role-based access control, admin ingestion workflows, audit logging, and real-time analytics.',
+      context: 'This project represents a complete end-to-end RAG system, covering ingestion, retrieval, generation, security, and observability—designed for real enterprise and franchise environments.'
+    },
+    theProblem: {
+      intro: 'Most RAG demos fail when moved into real-world enterprise environments.',
+      challenges: [
+        'Unauthenticated access to sensitive documents',
+        'No role separation between users and administrators',
+        'Lack of auditability for compliance-heavy use cases',
+        'Hallucinated answers without traceable sources',
+        'No visibility into system usage or query behavior'
+      ],
+      demonstrates: [
+        'End-to-end secure RAG architecture',
+        'Strict source-grounded answer generation with citations',
+        'Role-based access control for admin and users',
+        'Immutable audit logging for sensitive operations',
+        'Operational analytics for monitoring system usage'
+      ]
+    },
+    techStack: {
+      'Frontend': 'Next.js (Vercel), TypeScript, Tailwind CSS',
+      'Backend': 'FastAPI (Python)',
+      'Authentication': 'Clerk (JWT, JWKS, role-based claims)',
+      'Database': 'PostgreSQL with pgvector',
+      'Storage': 'Azure Blob Storage',
+      'AI Models': 'OpenAI text-embedding-3-large, GPT-4o',
+      'Hosting': 'Render (API), Vercel (Frontend)',
+      'Observability': 'Custom analytics & audit logging'
+    },
+    keyFeatures: [
+      {
+        icon: '🔐',
+        title: 'Authentication & Authorization',
+        points: [
+          'JWT-based authentication using Clerk',
+          'Role-based access control (admin vs user)',
+          'Protected frontend routes and backend endpoints',
+          'Organization-level multi-tenancy via token claims'
+        ]
+      },
+      {
+        icon: '📄',
+        title: 'Document Ingestion & Indexing',
+        points: [
+          'Admin-only PDF upload workflow',
+          'Automated parsing, chunking, and embedding generation',
+          'Version-aware re-indexing of manuals',
+          'Cloud-backed document storage using Azure Blob Storage'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: 'True RAG Retrieval & Generation',
+        points: [
+          'Semantic vector search using pgvector (cosine similarity)',
+          'Top-k chunk retrieval with similarity thresholds',
+          'LLM prompted to answer strictly from retrieved context',
+          'Safe refusal when answers are not found in documents'
+        ]
+      },
+      {
+        icon: '🧾',
+        title: 'Source Attribution',
+        description: 'Every answer includes page-level citations and section references, ensuring traceability and trust.'
+      },
+      {
+        icon: '📊',
+        title: 'Analytics & Audit Logging',
+        points: [
+          'Query analytics (usage, refusal rate, latency)',
+          'Immutable audit logs for uploads, reindexing, auth failures',
+          'Time-based filtering and CSV export for compliance',
+          'Admin-only analytics dashboard'
+        ]
+      }
+    ],
+    architectureHighlights: [
+      'End-to-end authenticated RAG system',
+      'Multi-tenant data isolation via org_id',
+      'Strict hallucination control',
+      'Admin-controlled ingestion and re-indexing',
+      'Production-grade observability and auditability'
+    ],
+    dataFlow: [
+      'User authenticates via Clerk',
+      'JWT token sent to backend with each request',
+      'User question embedded using OpenAI embeddings',
+      'pgvector performs semantic similarity search',
+      'Top chunks selected as context',
+      'Prompt constructed with grounding rules',
+      'GPT-4o generates answer',
+      'Answer, citations, and metrics logged',
+      'Response returned to frontend'
+    ],
+    security: [
+      'JWT validation using Clerk JWKS',
+      'Role-based endpoint protection',
+      'Org-level data isolation',
+      'Immutable audit logs for sensitive actions',
+      'HTTPS-only communication'
+    ],
+    achievements: [
+      'Delivered a fully deployed, enterprise-ready RAG system',
+      'Implemented secure multi-tenant architecture',
+      'Built admin ingestion and re-indexing workflows',
+      'Designed hallucination-safe prompt strategy',
+      'Integrated analytics and audit logging from day one'
+    ],
+    challenges: [
+      'Balancing retrieval accuracy vs recall',
+      'Designing safe refusal behavior for missing data',
+      'Managing memory usage during large PDF indexing',
+      'Implementing RBAC across frontend and backend',
+      'Ensuring observability without external monitoring tools'
+    ],
+    applications: [
+      'Enterprise knowledge assistants',
+      'Franchise operations support systems',
+      'Internal policy and compliance assistants',
+      'Training and onboarding platforms',
+      'Secure AI-powered document search'
+    ],
+    costAnalysis: [
+      'Render + Vercel: ~$0–15/month',
+      'PostgreSQL (pgvector): ~$5–15/month',
+      'Azure Blob Storage: Minimal (pay-as-you-go)',
+      'OpenAI (chat + embeddings): Usage-based',
+      'Estimated Total: ~$30–50/month for moderate usage'
+    ],
+    futureEnhancements: [
+      'Twilio voice-based RAG integration',
+      'Streaming responses',
+      'Advanced retrieval re-ranking',
+      'Per-sentence citations',
+      'RBAC-aware retrieval filters',
+      'Feedback-driven answer quality evaluation'
+    ]
+  },
+  2: {
     fullTitle: 'AI-Powered Architecture Diagram Generator Pipeline',
     subtitle: 'Production-Ready 7-Stage Pipeline for Enterprise Architecture Diagrams',
     diagram: '/images/projects/ASD_generator.png',
@@ -143,7 +287,7 @@ export const projectDetails = {
       'Custom visual style templates'
     ]
   },
-  3: {
+  4: {
     fullTitle: 'Azure RAG API with Azure AI Search + Azure OpenAI',
     subtitle: 'Retrieval-Augmented Generation with Static Documents',
     diagram: '/images/projects/proj3.svg',
@@ -285,7 +429,7 @@ export const projectDetails = {
       'CI/CD pipeline (GitHub Actions / Azure DevOps)'
     ]
   },
-  2: {
+  3: {
     fullTitle: 'Azure Hybrid Semantic RAG Query Service',
     subtitle: 'Hybrid Search + Grounded Answer Generation for RAG Systems',
     diagram: '/images/projects/proj5.png', // Using existing project image as placeholder
@@ -426,7 +570,7 @@ export const projectDetails = {
       'Query analytics & evaluation metrics'
     ]
   },
-  4: {
+  5: {
     fullTitle: 'Azure API Management Traffic Control & Governance Foundation',
     subtitle: 'Enterprise API Rate Limiting, Quotas & Observability using Azure API Management',
     diagram: '/images/projects/proj7.png',
