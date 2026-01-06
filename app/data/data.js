@@ -12,7 +12,7 @@ export const companies = [
     id: 1,
     institution: 'Tata Consultancy Services',
     logo: '/images/companies/tcs.png',
-    degree: 'Business Analyst for CIBC',
+    degree: 'Data Engineering Analyst for CIBC',
     startDate: 'Feb 2022',
     endDate: 'Present'
   },
@@ -47,9 +47,9 @@ export const institutions = [
   	id: 2,
   	institution: 'Centennial College',
   	logo: '/images/institutions/busms.png',
-  	degree: 'Higher Secondary Certificate, Science',
-  	startDate: '2016',
-  	endDate: '2018',
+  	degree: 'PG Diploma in Software Engineering',
+  	startDate: '2020',
+  	endDate: '2022',
   }
   // {
   // 	id: 3,
